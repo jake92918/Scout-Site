@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "moment": "^2.29.1",
+    "qs": "^6.10.3",
+    "react-markdown": "^8.0.0",
+    "react-moment": "^1.1.1"
+  }
+}
