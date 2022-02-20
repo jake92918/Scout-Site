@@ -6,26 +6,22 @@ class MyDocument extends Document {
       <Html>
         <Head>
           {/* eslint-disable-next-line */}
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Nunito+Sans"
+          <link 
+            rel="preconnect" 
+            href="https://fonts.googleapis.com" 
           />
-          <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/css/uikit.min.css"
+
+          <link 
+            rel="preconnect" 
+            href="https://fonts.gstatic.com" 
+            crossOrigin="true"
           />
-          <script
-            async
-            src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit.min.js"
+
+          <link 
+              href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,700;0,900;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap" 
+              rel="stylesheet"
           />
-          <script
-            async
-            src="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/js/uikit-icons.min.js"
-          />
-          <script
-            async
-            src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit.js"
-          />
+
         </Head>
         <body>
           <Main />
