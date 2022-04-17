@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_nav_mains",
+  "info": {
+    "displayName": "Main",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "HeaderImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
