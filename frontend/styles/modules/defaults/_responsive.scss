@@ -1,0 +1,158 @@
+﻿
+
+
+@media only screen and (max-device-width: 767px) {
+    
+    .mobileOnly {
+        display: block;
+    }
+
+    .ipadOnly {
+        display: none !important;
+    }
+
+    .ipadUp {
+        display: none !important;
+    }
+
+    .ipadDown {
+        display: block;
+    }
+
+    .laptopOnly {
+        display: none !important;
+    }
+
+    .ipadPortraitOnly {
+        display: none !important;
+    }
+
+    .ipadPortraitDown {
+        display: block;
+    }
+
+    .ipadLandscapeOnly {
+        display: none !important;
+    }
+
+    .ipadLandscapeUp {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+    
+    .mobileOnly {
+        display: none !important;
+    }
+
+    .ipadOnly {
+        display: block;
+    }
+
+    .ipadUp {
+        display: block;
+    }
+
+    .ipadDown {
+        display: block;
+    }
+
+    .laptopOnly {
+        display: none !important;
+    }
+
+    .ipadPortraitOnly {
+        display: block;
+    }
+
+    .ipadPortraitDown {
+        display: block;
+    }
+
+    .ipadLandscapeOnly {
+        display: none !important;
+    }
+
+    .ipadLandscapeUp {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1365px) {
+    
+    .mobileOnly {
+        display: none !important;
+    }
+
+    .ipadOnly {
+        display: block;
+    }
+
+    .ipadUp {
+        display: block;
+    }
+
+    .ipadDown {
+        display: block;
+    }
+
+    .laptopOnly {
+        display: none !important;
+    }
+
+    .ipadPortraitOnly {
+        display: none !important;
+    }
+
+    .ipadPortraitDown {
+        display: none !important;
+    }
+
+    .ipadLandscapeOnly {
+        display: block;
+    }
+
+    .ipadLandscapeUp {
+        display: block;
+    }
+}
+
+@media only screen and (min-device-width: 1366px) {
+    
+    .mobileOnly {
+        display: none !important;
+    }
+
+    .ipadOnly {
+        display: none !important;
+    }
+
+    .ipadUp {
+        display: block;
+    }
+
+    .ipadDown {
+        display: none !important;
+    }
+
+    .laptopOnly {
+        display: block;
+    }
+
+    .ipadPortraitOnly {
+        display: none !important;
+    }
+
+    .ipadPortraitDown {
+        display: none !important;
+    }
+
+    .ipadLandscapeOnly {
+        display: none !important;
+    }
+
+    .ipadLandscapeUp {
+        display: block;
+    }
+}

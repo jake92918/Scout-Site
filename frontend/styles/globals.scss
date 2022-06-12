@@ -1,4 +1,6 @@
 @import 'modules/varibles/colors', 'modules/varibles/fonts';
-@import 'modules/defaults/main';
+@import 'modules/defaults/main', 'modules/defaults/responsive';
+@import 'modules/utilities/functions', 'modules/utilities/mixins', 'modules/utilities/buttons';
 
-@import 'components/nav';
+@import 'components/nav', 'components/hero';
+@import 'pages/index';

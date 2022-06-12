@@ -1,0 +1,35 @@
+.PrimaryButton {
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 10px 15px;
+    margin: 0 5px;
+    background-color: $ScoutsTeal-500;
+}
+
+.SecondaryButton {
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 10px 15px;
+    margin: 0 5px;
+    background-color: $ScoutsTeal-500;
+}
+
+.TertiaryButton {
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 10px 15px;
+    margin: 0 5px;
+    background-color: $ScoutsTeal-500;
+}
