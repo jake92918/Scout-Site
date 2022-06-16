@@ -21,11 +21,18 @@ document.onclick = () => {
 
 var upperBound = window.innerWidth;
 var lowerBound = 1024;
-var steps = 300;
+var steps = 180;
 
 var tickValue = (upperBound - lowerBound) / steps;
 
-document.addEventListener("scroll", function (e) {
+document.addEventListener("scroll", SetNavbarSize);
+
+window.onresize = () => {
+    upperBound = window.innerWidth;
+    SetNavbarSize();
+};
+
+function SetNavbarSize() {
   var offset = window.pageYOffset;
   if (offset <= steps) {
     var count = lowerBound + tickValue * offset;
@@ -33,8 +40,6 @@ document.addEventListener("scroll", function (e) {
   } else {
     document.querySelector(".NavigationHeader").style.width = upperBound + "px";
   }
-});
+}
 
-window.onresize = () => {
-    upperBound = window.innerWidth;
-};
+SetNavbarSize();

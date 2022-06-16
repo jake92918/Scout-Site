@@ -2,13 +2,15 @@
     top: 0;
     position: fixed;
     min-width: 80%;
-    transition: width 0.1s linear;
+    transition: width 0.3s linear;
     z-index: 1;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     flex-direction: row;
+    justify-content: center;
     height: 80px;
+    padding: 5px 0;
     background-color: $ScoutsPurple-500;
 
     .HeaderLogo {
@@ -23,9 +25,7 @@
         width: 100%;
         position: relative;
         border-right: 3px solid white;
-        -webkit-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
+        max-width: 300px;
 
         img {
             height: 100%;
@@ -39,8 +39,9 @@
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
-        gap: 20px;
-        padding: 0 20px;
+        gap: 15px;
+        padding: 0 15px;
+        max-width: 900px;
 
         .dropdownMenu {
             flex: 1;
@@ -60,7 +61,7 @@
         span {
             cursor: pointer;
             color: white;
-            font-size: 20px;
+            font-size: 26px;
             font-weight: bold;
         }
 
@@ -72,8 +73,9 @@
             display: none;
 
             svg {
-                width: 60px;
-                height: 60px;
+                width: 40px;
+                height: 40px;
+                vertical-align: middle;
             }
         }
     }
@@ -85,12 +87,19 @@
         flex-direction: row-reverse;
 
         .HeaderLogo {
+            flex: 8;
             border-right: none;
         }
 
         .HeaderLinks {
+            flex: 10;
+
             .MenuIcon {
                 display: block;
+            }
+
+            span {
+                font-size: 18px;
             }
 
             .CurrentPage {
@@ -119,7 +128,7 @@
 @media only screen and (min-device-width: 1024px) {
     .NavigationHeader {
         min-width: 1024px;
-        width: 1024px;
+        width: 1100px;
         .HeaderLinks {
             .dropdownMenu {
                 height: auto !important;

@@ -2,5 +2,5 @@
 @import 'modules/defaults/main', 'modules/defaults/responsive';
 @import 'modules/utilities/functions', 'modules/utilities/mixins', 'modules/utilities/buttons';
 
-@import 'components/nav', 'components/hero';
-@import 'pages/index';
+@import 'components/nav', 'components/hero', 'components/footer';
+@import 'pages/index', 'pages/404';

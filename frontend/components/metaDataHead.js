@@ -2,12 +2,16 @@ import Head from "next/head";
 import { useContext } from "react";
 import { GlobalContext } from "../pages/_app";
 
-const Seo = () => {
+const MetaDataHead = () => {
   
   return (
     <Head>
+      <link
+          rel="shortcut icon"
+          href="/Images/Favicon.png"
+        />
     </Head>
   );
 };
 
-export default Seo;
+export default MetaDataHead;

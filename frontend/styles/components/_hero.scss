@@ -7,6 +7,7 @@
     overflow: hidden;
     position: relative;
     width: 100%;
+    height: 600px;
 
     >div {
         pointer-events: none;
@@ -17,8 +18,13 @@
     }
 
     video {
-
         display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    min-height: 100%;
     }
 
     .HeaderSpacer {
@@ -42,20 +48,7 @@
 
 @media only screen and (max-device-width: 1024px) {
     .heroimage {
-        video {
-            min-height: 100vh;
-            min-width: 100%;
-            height: 100vh;
-        }
-    }
-}
-
-@media only screen and (min-device-width: 1024px) {
-    .heroimage {
-        video {
-            min-height: 700px;
-            min-width: 100%;
-            width: 100%;
-        }
+        margin-top: 80px;
+        height: 400px;
     }
 }
