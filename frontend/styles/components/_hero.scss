@@ -19,12 +19,12 @@
 
     video {
         display: block;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    min-height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-height: 600px;
+        min-width: 100vw;
     }
 
     .HeaderSpacer {
@@ -50,5 +50,9 @@
     .heroimage {
         margin-top: 80px;
         height: 400px;
+
+        video {
+            min-height: 400px;
+        }
     }
 }

@@ -1,23 +1,18 @@
 .PrimaryButton {
-    height: 30px;
+    height: 36px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
     flex-direction: row;
     padding: 10px 15px;
-    margin: 0 5px;
-    background-color: $ScoutsTeal-500;
-}
-
-.SecondaryButton {
-    height: 30px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    border-radius: 3px;
     margin: 0 5px;
     background-color: $ScoutsTeal-500;
 }
@@ -32,4 +27,51 @@
     padding: 10px 15px;
     margin: 0 5px;
     background-color: $ScoutsTeal-500;
+}
+
+.SecondaryButton {
+    background-color: white;
+    border: 3px solid $ScoutsTeal-500;
+    border-radius: 8px;
+    color: $ScoutsTeal-500;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    padding: 6px 12px;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    width: auto;
+
+
+    &:focus-visible {
+        box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+        transition: box-shadow .2s;
+    }
+
+    &:active {
+        background-color: #F7F7F7;
+        border-color: #000000;
+        transform: scale(.96);
+    }
+
+    &:disabled {
+        border-color: #DDDDDD;
+        color: #DDDDDD;
+        cursor: not-allowed;
+        opacity: 1;
+    }
+
+    &:hover {
+        background-color: $ScoutsTeal-500;
+        color: white;
+        -webkit-transition: all .25s ease-in;
+        -o-transition: all .25s ease-in;
+        transition: all .25s ease-in;
+    }
 }
