@@ -9,6 +9,7 @@ const Home = () => {
       <Hero />
       <div className="PageSize">
         
+        
       </div>
     </>
   );
