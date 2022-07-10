@@ -1,15 +1,17 @@
-.box>div {
-    width: 300px;
+.box {
+    width: 85%;
+
+>div {
+    width: 320px;
     max-width: 100vw;
-    height: 190px;
-    padding: 20px;
+    height: 200px;
+    padding: 30px;
     color: white;
 
     &:first-child {
-        height: 340px;
+        height: auto;
         background-color: $ScoutsPurple-500;
-        position: absolute;
-        top: -150px;
+        margin-top: -150px;
 
         h1 {
             text-align: center;
@@ -29,6 +31,7 @@
 
         }
     }
+}
 }
 
 .PageSize {
@@ -114,24 +117,25 @@
 }
 
 .SectionHeader {
-    margin-top: 80px;
     margin-bottom: 20px;
     width: 100%;
-    height: 100px;
+    height: 320px;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: row;
-    padding: 0 40px;
+    padding: 80px 40px 0;
     background-color: $ScoutsTeal-500;
 
-    h1 {
-        font-size: 45px;
-        color: white;
-    }
+        h1 {
+            font-size: 64px;
+            color: white;
+        }
+
 }
 
 @media only screen and (min-device-width: 1024px) {
     .box>div {
         margin-right: 500px;
-    }    
+    }
 }

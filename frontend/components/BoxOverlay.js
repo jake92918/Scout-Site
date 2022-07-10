@@ -21,7 +21,6 @@ const BoxOverlay = () => {
           </Link>
         </div>
       </div>
-      <div></div>
     </div>
   );
 };

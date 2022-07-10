@@ -5,8 +5,10 @@ import Nav from "./nav";
 const Layout = ({ children }) => (
   <>
     <MetaDataHead />
-    <Nav />
-    {children}
+    <div className="WholePageHeight">
+      <Nav />
+      {children}
+    </div>
     <Footer />
   </>
 );
