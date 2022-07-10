@@ -13,6 +13,7 @@ const Home = () => {
         <BoxOverlay />
 
         <SectionTiles />
+        <iframe src="https://player.vimeo.com/video/430792771" width="640" className="campfirevideo" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
       </div>
     </>
   );
