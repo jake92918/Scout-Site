@@ -30,11 +30,10 @@ const Home = () => {
                       layout={"responsive"}
                     />
                   </span>
-                  <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  <span className="Text">
+                   Get a first taste of scouting at Beavers. Beavers is all about having fun and making freinds. 
+                   Building a lifelong love of the outdoors and teaching young people to be responsible and caring.
+                   Crafts and an early introduction to scouting activites help to build confidence and skills.
                   </span>
                 </div>
               </a>
@@ -52,11 +51,11 @@ const Home = () => {
                       layout={"responsive"}
                     />
                   </span>
-                  <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  <span className="Text">
+                   Skills, fun and resillence. The expereinces gained at Cubs stay with you for life. 
+                   Campfires, games and learning to cook are just a few of the activites we do at Cubs.
+                   We also offer an introduction to camping and nights away from home at a variety of local sites.
+                   Start your scouting journey at Cubs.
                   </span>
                 </div>
               </a>
@@ -74,11 +73,10 @@ const Home = () => {
                       layout={"responsive"}
                     />
                   </span>
-                  <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  <span className="Text">
+                    Scouts is a fun and safe environment to learn new skills. 
+                    Building fires, outdoor games and making wooden structures are just some of the exciting activities kids can discover at Scouts.
+                    Each skill is awarded with a badge and a sense of accomplishment.
                   </span>
                 </div>
               </a>
@@ -96,11 +94,10 @@ const Home = () => {
                       layout={"responsive"}
                     />
                   </span>
-                  <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  <span className="Text">
+                    Explorers is the place to form life long friendships in a diverse environment.
+                    Experince activites such as cliff diving, surfing, rock climbing and more in a safe and encouraging envioronment.
+                    
                   </span>
                 </div>
               </a>
@@ -118,11 +115,10 @@ const Home = () => {
                       layout={"responsive"}
                     />
                   </span>
-                  <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  <span className="Text">
+                    Moving onto adulthood doesn't have to be boring.
+                    Network scouts meet weekly for sessions and plan/execute their own expeditions.
+                    With the chance to earn nationally recognised awards such as Queen scout award and Duke of Edinburgh Gold.
                   </span>
                 </div>
               </a>
